@@ -1,0 +1,24 @@
+node_modules
+.next
+out
+dist
+build
+
+.env
+.env.local
+.env*.local
+
+*.tsbuildinfo
+next-env.d.ts
+
+.DS_Store
+coverage
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
